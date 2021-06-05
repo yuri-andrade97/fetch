@@ -1,0 +1,39 @@
+body {
+  background-color: #f7f1f1;
+  
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App input {
+  border: 1px solid rgba(48, 45, 45, 0.777);
+  border-radius: 6px;
+  
+  padding: 6px;
+
+  font-size: 18px;
+  text-align: center;
+}
+
+.card {
+  background-color: aliceblue;
+
+  display: flex;
+  
+  align-items: center;
+
+  margin: 15px 0;
+  padding: 10px;
+  
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.card img {
+  border-radius: 15px;
+  border: 1px solid aliceblue;
+  
+  margin-right: 15px;
+}
